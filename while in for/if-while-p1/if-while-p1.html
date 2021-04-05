@@ -1,0 +1,41 @@
+<script>
+
+    let monday   = "Monday"
+    let tuesday  = "Tuesday"
+    let wensday  = "Wensday"
+    let thursday = "Thursday"
+    let friday   = "Friday"
+    let saturday = "Saturday"
+    let sunday   = "Sunday"
+
+    document.write(`<ol type="1">`)
+        
+        for ( let item = 1 ; item <= 7 ; item++ ) {
+
+            if ( item == 1 ) {
+                document.write( `<li> ${monday} </li>` )
+                
+            } else if ( item == 2 ) {
+                document.write( `<li> ${tuesday} </li>` )
+                
+            } else if ( item == 3 ) {
+                document.write( `<li> ${wensday} </li>` )
+                
+            } else if ( item == 4 ) {
+                document.write( `<li> ${thursday} </li>` )
+                
+            } else if ( item == 5 ) {
+                document.write( `<li> ${friday} </li>` )
+                
+            } else if ( item == 6) {
+                document.write( `<li> ${saturday} </li>` )
+                
+            } else if ( item == 7 ) {
+                document.write( `<li> ${sunday} </li>` )
+            }
+
+        }
+
+    document.write(`</ol>`)
+
+</script>

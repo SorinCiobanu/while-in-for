@@ -1,0 +1,16 @@
+<script>
+
+    for ( let i = 1 ; i <= 9 ; i++ ) {
+        document.write(`<!-- ${i} start -->`)
+        document.write(`
+            <img src="img/${i}-300x300.jpg" alt="">
+        `)
+
+        if (i == 3 || i == 6) {
+            document.write(`<br>`)
+        }
+        
+        document.write(`<!-- ${i} end -->`)
+    }
+
+</script>
